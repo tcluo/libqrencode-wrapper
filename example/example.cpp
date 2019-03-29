@@ -2,6 +2,7 @@
 #include "CLI/CLI.hpp"
 #include <iostream>
 #include <set>
+#include <signal.h>
 
 int main(int argc, const char **argv)
 {
