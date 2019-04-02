@@ -18,3 +18,5 @@ add_subdirectory(third_party/libqrencode)
 add_subdirectory(third_party/CLI11)
 add_subdirectory(third_party/Catch2)
 
+enable_testing()
+add_test(NAME unit_test COMMAND ut)
