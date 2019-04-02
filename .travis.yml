@@ -2,7 +2,6 @@ compiler:
   - gcc
   - clang
 language: cpp
-os: 
-  - linux
-  - osx
+dist: xenial
+os: linux
 script: "mkdir build && cd build && cmake .. && make"
